@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+#box{
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.boxes{
+  width: 150px;
+  height: 200px;
+  border: 1px solid #dadada;
+  overflow: hidden; 
+  display: flex;
+  position: relative;
+  margin: 10px;
+}
+
+.boxes img{
+  background-position: center;
+  background-size: cover; 
+  object-fit: contain;
+}
+
+.boxes p{
+  position: absolute;
+  bottom: 10px;
+  color: #fff;
+  left: 5px;
+}
+
